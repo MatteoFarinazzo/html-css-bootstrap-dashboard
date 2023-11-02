@@ -14,6 +14,10 @@ td{
     margin-left: 20px;
 }
 
+footer img{
+    width:25px;
+}
+
 
 .row {
     --bs-gutter-x: 1.5rem;
@@ -37,4 +41,5 @@ td{
     width:5%;
     margin-right: 30px;
 }
+
 
