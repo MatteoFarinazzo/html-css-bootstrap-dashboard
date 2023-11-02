@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-.img-width{
-    width:5%;
-    margin-right: 30px;
-}
-
 th{
     width:60%;
+    vertical-align: middle;
 }
+
+td{
+    vertical-align: middle;
+}
+
 
 .row {
     --bs-gutter-x: 1.5rem;
@@ -22,4 +23,17 @@ th{
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
     align-items: baseline;
+    justify-content: space-around;
 }
+
+
+.d-flex {
+    display: flex!important;
+    align-items: flex-end;
+}
+
+.img-width{
+    width:5%;
+    margin-right: 30px;
+}
+
