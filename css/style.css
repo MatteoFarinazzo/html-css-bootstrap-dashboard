@@ -3,3 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.img-width{
+    width:5%;
+    margin-right: 30px;
+}
